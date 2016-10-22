@@ -76,7 +76,7 @@ public class Ride extends AppCompatActivity {
 
         @Override
         protected Void doInBackground(Void... params) {
-            reg(Ride.this, des, source, Date, car, status);
+            reg(Ride.this, des, source, Date, car, status, req);
 
             return null;
         }
