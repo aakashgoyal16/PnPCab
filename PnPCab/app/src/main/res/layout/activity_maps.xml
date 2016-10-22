@@ -1,0 +1,93 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.pnpcab.MapsActivity"
+    >
+
+<fragment
+    android:layout_weight="1"
+    android:scrollbars="vertical"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"/>
+    <LinearLayout
+        android:id="@+id/radio_group_list_selector"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:orientation="vertical"
+        android:weightSum="2"
+        android:background="#ffffff"
+        android:padding="4dp" >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    android:layout_weight="1">
+    <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:background="#000000"
+        android:textColor="#ffff00"
+        android:text="RIDE LATER"
+        android:onClick="ride"
+        android:layout_height="match_parent" />
+    <Button
+        android:layout_width="0dp"
+        android:text="RIDE NOW"
+        android:onClick="ridenow"
+        android:background="#000000"
+        android:textColor="#ffff00"
+        android:layout_weight="1"
+        android:layout_height="match_parent" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#000000"
+        android:orientation="horizontal"
+        android:weightSum="5"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#ffff00"
+            android:text="MICRO"
+            android:onClick="b1"
+            android:layout_height="match_parent" />
+        <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+            android:onClick="b2"
+            android:textColor="#ffff00"
+            android:text="MINI"
+            android:layout_height="match_parent" />
+        <Button
+        android:layout_width="0dp"
+        android:layout_weight="1"
+            android:onClick="b3"
+            android:text="SEDAN"
+            android:textColor="#ffff00"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:text="PRIME"
+            android:textColor="#ffff00"
+            android:onClick="b4"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_width="0dp"
+            android:text="SHARE"
+            android:onClick="b5"
+            android:textColor="#ffff00"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.android.pnpcab.ProfiePage">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="3"
+    android:textSize="55dp"
+    android:gravity="center"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:background="#ffff00"
+    android:text="PROFILE PAGE"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:src="@drawable/user"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:text="USERNAME"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffff00"
+        android:text="UPDATE PROFILE"
+        android:onClick="upd"
+        android:id="@+id/button3"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffff00"
+        android:text="VIEW RIDES"
+        android:onClick="view1"
+        android:id="@+id/button4"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:background="#000000"
+        android:textColor="#ffff00"
+        android:text="BOOK RIDES"
+        android:onClick="loc"
+        android:id="@+id/button2"
+         />
+</LinearLayout>
