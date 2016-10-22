@@ -33,7 +33,7 @@
         android:textColor="#000000"
         android:id="@+id/req"
         android:gravity="center"
-        android:hint="ENTER YOUR DESTINATION"/>
+        android:hint="ENTER YOUR TIME"/>
 
     <TextView
         android:layout_width="match_parent"
